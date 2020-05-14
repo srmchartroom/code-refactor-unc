@@ -27,8 +27,8 @@
 - [x] 19. Nested sections in aside and styled in single instance, consolidating and removing the need for separate, identically-styled classes of .benefit-lead/.benefit-brand/.benefit-cost
 - [x] 20. Styled h3 as a standard page element instead of styling as nested in the "aside", since the "aside" held the only instances of h3
 - [x] 21. Styled img in "aside" as single style instance since duplicative styles
-22. Styled each section in "main" as a single child style instance since duplicative styles, and removed unnecessary classes of .search-engine-optimization/.online-reputation-management/.social-media-marketing
-23. Styled img in "main" as single style instance since duplicative styles
+- [x] 22. Styled each section in "main" as a single child style instance since duplicative styles, and removed unnecessary classes of .search-engine-optimization/.online-reputation-management/.social-media-marketing
+- [x] 23. Styled img in "main" as single style instance since duplicative styles
 24. Styled h2 as a standard page element instead of styling as nested in the "main", since the "main" held the only instances of h2
 25. Changed the .footer class to the semantic element "footer" instead 
 26. Changed the "footer" h2 to be h4 instead to follow natural declination of headings
