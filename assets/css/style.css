@@ -58,7 +58,6 @@ p {
 
 
 /* Header Section Styles */
-
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -66,7 +65,9 @@ header {
     color: #ffffff;
 }
 
-/* Development Note, 05/14/20 | Sean McGinnis | Code review and refactor developer
+/* Development Note, 05/14/20
+Sean McGinnis | Code review and refactor developer
+
 Specification of "header h1 .seo" isn't necessary and could complicate use of the text-based (rather than image-based) logo in future executions of it if it placed in locations other than the header (e.g. in a footer, in modal/pop-up, in other page sections).
 
 For extensibility of this text-based logo, I've updated the style attribution to span .seo, retaining the .seo class but attributing it specifically to the span rather than nested within the header and limiting the applied styles to that specificity.
@@ -75,7 +76,9 @@ span .seo {
     color: #d9dcd6;
 }
 
-/* Development Note, 05/14/20 | Sean McGinnis | Code review and refactor developer
+/* Development Note, 05/14/20
+Sean McGinnis | Code review and refactor developer
+
 Though I've updated div to the more semantically clear "nav" element, I've retained the specificity of the nav style setting within the header semantic element. This ensures that other nav executions (e.g. footer nav, sidebar nav, in-page or section-based navs) can and should be styled based on the nested regions without requiring specificity look-up and/or potential conflicts.  
 */
 header nav {
@@ -96,7 +99,6 @@ header nav ul li {
 }
 
 /* Hero section styles */
-
 .hero {
     height: 800px;
     width: 100%;
@@ -106,7 +108,7 @@ header nav ul li {
     background-position: center;
 }
 
-
+/* Main section styles */
 main {
     width: 75%;
     display: inline-block;
@@ -126,8 +128,7 @@ main section figure img {
     max-height: 200px;
 }
 
-
-
+/* Aside section styles */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -144,15 +145,14 @@ aside section {
     color: #ffffff;
 }
 
-
-
 aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.footer {
+/* Footer section styles */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
