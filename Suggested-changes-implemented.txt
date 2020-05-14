@@ -1,4 +1,4 @@
-Suggested Changes Implemented:
+Optimizations/Changes Implemented:
 
 Changes in the HTML file, "Agency-Page-Code-Refactor.html"
 
@@ -7,32 +7,28 @@ Changes in the HTML file, "Agency-Page-Code-Refactor.html"
 3. Updated <div> holding the nav <ul>/<li>'s to semantic element <nav>
 4. Updated the main content div (<div class="content">) to semantic element <main>
 5. Updated sub-divs in the main content div to be sections; removed unnecessary classes and condensed styles appropriately.
-6. Updated <div class="benefits"> to semantic element <aside>
-7. Updated sub-divs in the aside to be sections; removed unnecessary classes and condensed styles appropriately.
-8. Updated img tag in the original "benefit-cost" div to remove the unnecessary closing </img> tag thereby mirroring the same format as the other images
-6. Wrapped each image in the <main> and <aside> sections in semantic element <figure>
-7. Updated the <div class="footer"> to semantic element <footer>
-8. Changed the <h2> heading to <h4> to follow natural declining flow of headings
+6. Added missing id for "search-engine-optimization" section nnav functionality.
+7. Updated <div class="benefits"> to semantic element <aside>
+8. Updated sub-divs in the aside to be sections; removed unnecessary classes and condensed styles appropriately.
+9. Updated img tag in the original "benefit-cost" div to remove the unnecessary closing </img> tag thereby mirroring the same format as the other images
+10. Wrapped each image in the <main> and <aside> sections in semantic element <figure>
+11. Updated the <div class="footer"> to semantic element <footer>
+12. Changed the <h2> heading to <h4> to follow natural declining flow of headings
+13. Added alt tags to everyimage on the page except the hero image div
 
 Changes in the CSS file, "style.css"
 
-9. Changed .header class to apply to semantic element "header" instead
-10. Updated child h1 as well as span "seo" to parent of "header"
-11. Updated .header child ul/li's to apply to "header" and semantic element "nav" instead
-12. Updated .content class to semantic element "main" instead
-13. Updated .benefits class to semantic element "aside" instead
-14. Nested sections in aside and styled in single instance, consolidating and removing the need for separate, identically-styled classes of .benefit-lead/.benefit-brand/.benefit-cost
-15. styled h3 as a standard page element instead of styling as nested in the "aside", since the "aside" held the only instances of h3
-16. styled img in "aside" as single style instance since duplicative styles
-17. styled each section in "main" as a single child style instance since duplicative styles, and removed unnecessary classes of .search-engine-optimization/.online-reputation-management/.social-media-marketing
-18. styled img in "main" as single style instance since duplicative styles
-19. styled h2 as a standard page element instead of styling as nested in the "main", since the "main" held the only instances of h2
-20. Changed the .footer class to the semantic element "footer" instead 
-21. Changed the "footer" h2 to be h4 instead to follow natural declination of headings
-
-Changes for accessibility:
-
-22.  Added alt tags to everyimage on the page except the hero image div
-
-***NOTE TO SEAN: must update to keep IDs on the sections since that's how the nav works...
+14. Changed .header class to apply to semantic element "header" instead
+15. Updated child h1 as well as span "seo" to parent of "header"
+16. Updated .header child ul/li's to apply to "header" and semantic element "nav" instead
+17. Updated .content class to semantic element "main" instead
+18. Updated .benefits class to semantic element "aside" instead
+19. Nested sections in aside and styled in single instance, consolidating and removing the need for separate, identically-styled classes of .benefit-lead/.benefit-brand/.benefit-cost
+20. styled h3 as a standard page element instead of styling as nested in the "aside", since the "aside" held the only instances of h3
+21. styled img in "aside" as single style instance since duplicative styles
+22. styled each section in "main" as a single child style instance since duplicative styles, and removed unnecessary classes of .search-engine-optimization/.online-reputation-management/.social-media-marketing
+23. styled img in "main" as single style instance since duplicative styles
+24. styled h2 as a standard page element instead of styling as nested in the "main", since the "main" held the only instances of h2
+25. Changed the .footer class to the semantic element "footer" instead 
+26. Changed the "footer" h2 to be h4 instead to follow natural declination of headings
 
