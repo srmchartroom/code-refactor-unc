@@ -21,24 +21,25 @@
 7. Contains appropriate (concise, descriptive) meta title
 8. Includes general improvements to CSS / HTML while preserving layout and design.
 
-** Optimizations/Change Details:
+## Optimizations/Change Details:
 
-***Changes in the HTML file, "Agency-Page-Code-Refactor.html"
+### Changes in the HTML file, "Agency-Page-Code-Refactor.html"
 
-- [x] 1. Updated <title> in the <head> of the page to be meaningful and descriptive.
-- [x] 2. Updated <div class="header"> to semantic element <header>
-- [x] 3. Updated <div> holding the nav <ul>/<li>'s to semantic element <nav>
-- [x] 4. Updated the main content div (<div class="content">) to semantic element <main>
+- [x] 1. Updated _title_ in the _head_ of the page to be meaningful and descriptive.
+- [x] 2. Updated _div class="header"_ to semantic element _header_
+- [x] 3. Updated _div_ holding the nav _ul_ & _li_'s to semantic element _nav_
+- [x] 4. Updated the main content div (_div class="content"_) to semantic element _main_
 - [x] 5. Updated sub-divs in the main content div to be sections; removed unnecessary classes and condensed styles appropriately.
-- [x] 6. Added missing id for "search-engine-optimization" section nnav functionality.
-- [x] 7. Updated <div class="benefits"> to semantic element <aside>
+- [x] 6. Added missing id for "search-engine-optimization" section nav functionality.
+- [x] 7. Updated _div class="benefits"_ to semantic element _aside_
 - [x] 8. Updated sub-divs in the aside to be sections; removed unnecessary classes and condensed styles appropriately.
-- [x] 9. Updated img tag in the original "benefit-cost" div to remove the unnecessary closing </img> tag thereby mirroring the same format as the other images
-- [x] 10. Wrapped each image in the <main> and <aside> sections in semantic element <figure>
-- [x] 11. Updated the <div class="footer"> to semantic element <footer>
-- [x] 12. Changed the <h2> heading to <h4> to follow natural declining flow of headings
+- [x] 9. Updated img tag in the original "benefit-cost" div to remove the unnecessary closing _/img_ tag thereby mirroring the same format as the other images
+- [x] 10. Wrapped each image in the _main_ and _aside_ sections in semantic element _figure_
+- [x] 11. Updated the _div class="footer"_ to semantic element _footer_
+- [x] 12. Changed the _h2_ heading to _h4_ to follow natural declining flow of headings
 - [x] 13. Added alt tags to every image on the page except the hero image div 
-- [x] 14. Added title attribute to .hero div for improved accessibility to stand-in for aethetic alt text attribute (since image is set as background-image via CSS and thus without alt text attribute setting at this time in CSS3/HTML5) **See [Stackoverflow: "CSS background image alt attribute"](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute)** and answer by [@Randy-Greencorn](https://stackoverflow.com/users/1925485/randy-greencorn)
+- [x] 14. Added title attribute to .hero div for improved accessibility to stand-in for aethetic alt text attribute (since image is set as background-image via CSS and thus without alt text attribute setting at this time in CSS3/HTML5) 
+**See [Stackoverflow: "CSS background image alt attribute"](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute)** and answer by [@Randy-Greencorn](https://stackoverflow.com/users/1925485/randy-greencorn)
 
 ***Changes in the CSS file, "style.css"
 
