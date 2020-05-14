@@ -62,3 +62,5 @@
 - [x] 31. Converted h3 em to px for continuity and downstream comparative edits.
 
 *For change-by-change details, please review [commit log](https://github.com/srmchartroom/code-refactor-unc/commits/master).*
+
+*See the refactored page [in a browser](https://srmchartroom.github.io/code-refactor-unc/Agency-Page-Code-Refactor.html).
