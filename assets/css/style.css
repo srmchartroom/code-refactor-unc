@@ -65,14 +65,8 @@ header {
     color: #ffffff;
 }
 
-/* Development Note, 05/14/20
-Sean McGinnis | Code review and refactor developer
 
-Specification of "header h1 .seo" isn't necessary and could complicate use of the text-based (rather than image-based) logo in future executions of it if it placed in locations other than the header (e.g. in a footer, in modal/pop-up, in other page sections).
-
-For extensibility of this text-based logo, I've updated the style attribution to span .seo, retaining the .seo class but attributing it specifically to the span rather than nested within the header and limiting the applied styles to that specificity.
-*/
-span .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -145,7 +139,7 @@ aside section {
     color: #ffffff;
 }
 
-aside section figure img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;

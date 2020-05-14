@@ -43,22 +43,22 @@
 
 ### Changes in the CSS file, "style.css"
 
-- [x] 14. Changed .header class to apply to semantic element "header" instead
-- [x] 15. Updated child h1 as well as span "seo" to parent of "header"
-- [x] 16. Updated .header child ul/li's to apply to "header" and semantic element "nav" instead
-- [x] 17. Updated .content class to semantic element "main" instead
-- [x] 18. Updated .benefits class to semantic element "aside" instead
-- [x] 19. Nested sections in aside and styled in single instance, consolidating and removing the need for separate, identically-styled classes of .benefit-lead/.benefit-brand/.benefit-cost
-- [x] 20. Styled h3 as a standard page element instead of styling as nested in the "aside", since the "aside" held the only instances of h3
-- [x] 21. Styled img in "aside" as single style instance since duplicative styles
-- [x] 22. Styled each section in "main" as a single child style instance since duplicative styles, and removed unnecessary classes of .search-engine-optimization/.online-reputation-management/.social-media-marketing
-- [x] 23. Styled img in "main" as single style instance since duplicative styles
-- [x] 24. Styled h2 as a standard page element instead of styling as nested in the "main", since the "main" held the only instances of h2
-- [x] 25. Changed the .footer class to the semantic element "footer" instead 
-- [x] 26. Changed the "footer" h2 to be h4 instead to follow natural declination of headings
-- [x] 27. Updated order of style elements for global styles first, header second, hero third, and then main section to precede aside section, followed by footer for sake of load-flow, style development best practices, and future specificity as needed/if needed downstream in future updates.
-- [x] 28. Added development comments to explain why certain specificity was retained or removed
-- [x] 29. Added development comments to indicate semantically organized sections of styles for easier downstream review
-- [x] 30. Converted h3 em to px for continuity and downstream comparative edits.
+- [x] 15. Changed .header class to apply to semantic element "header" instead
+- [x] 16. Updated child h1 as well as span "seo" to parent of "header"
+- [x] 17. Updated .header child ul/li's to apply to "header" and semantic element "nav" instead
+- [x] 18. Updated .content class to semantic element "main" instead
+- [x] 19. Updated .benefits class to semantic element "aside" instead
+- [x] 20. Nested sections in aside and styled in single instance, consolidating and removing the need for separate, identically-styled classes of .benefit-lead/.benefit-brand/.benefit-cost
+- [x] 21. Styled h3 as a standard page element instead of styling as nested in the "aside", since the "aside" held the only instances of h3
+- [x] 22. Styled img in "aside" as single style instance since duplicative styles
+- [x] 23. Styled each section in "main" as a single child style instance since duplicative styles, and removed unnecessary classes of .search-engine-optimization/.online-reputation-management/.social-media-marketing
+- [x] 24. Styled img in "main" as single style instance since duplicative styles
+- [x] 25. Styled h2 as a standard page element instead of styling as nested in the "main", since the "main" held the only instances of h2
+- [x] 26. Changed the .footer class to the semantic element "footer" instead 
+- [x] 27. Changed the "footer" h2 to be h4 instead to follow natural declination of headings
+- [x] 28. Updated order of style elements for global styles first, header second, hero third, and then main section to precede aside section, followed by footer for sake of load-flow, style development best practices, and future specificity as needed/if needed downstream in future updates.
+- [x] 29. Added development comments to explain why certain specificity was retained or removed
+- [x] 30. Added development comments to indicate semantically organized sections of styles for easier downstream review
+- [x] 31. Converted h3 em to px for continuity and downstream comparative edits.
 
 *For change-by-change details, please review [commit log](https://github.com/srmchartroom/code-refactor-unc/commits/master).*
