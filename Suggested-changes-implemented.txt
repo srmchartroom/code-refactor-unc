@@ -31,4 +31,5 @@ Changes in the CSS file, "style.css"
 24. styled h2 as a standard page element instead of styling as nested in the "main", since the "main" held the only instances of h2
 25. Changed the .footer class to the semantic element "footer" instead 
 26. Changed the "footer" h2 to be h4 instead to follow natural declination of headings
+27. Updated order of style elements for main section to precede aside section for sake of load-flow and specificity as needed.
 
