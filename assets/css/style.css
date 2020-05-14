@@ -145,7 +145,7 @@ aside section {
     color: #ffffff;
 }
 
-aside section img {
+aside section figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
