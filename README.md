@@ -41,7 +41,7 @@
 - [x] 14. Added title attribute to .hero div for improved accessibility to stand-in for aethetic alt text attribute (since image is set as background-image via CSS and thus without alt text attribute setting at this time in CSS3/HTML5) 
 **See [Stackoverflow: "CSS background image alt attribute"](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute)** and answer by [@Randy-Greencorn](https://stackoverflow.com/users/1925485/randy-greencorn)
 
-***Changes in the CSS file, "style.css"
+### Changes in the CSS file, "style.css"
 
 - [x] 14. Changed .header class to apply to semantic element "header" instead
 - [x] 15. Updated child h1 as well as span "seo" to parent of "header"
