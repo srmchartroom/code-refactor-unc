@@ -1,3 +1,5 @@
+/* Global Styles */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +10,55 @@ body {
     background-color: #d9dcd6;
 }
 
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Development Note, 05/14/20 | Sean McGinnis | Code review and refactor developer
+Explicitly setting the px size of the h3 to mirror px-based settings of other text elements. This simplifies downstream developers from needing to convert em to px if future changes are needed to cascade across all heading sections, and allows for easier size comparisons
+
+Conversion of the inherited 1.7em based on body p size of 16px == 170% of 16px == 1.7 * 16px == 27.2px. You'll therefore see the explicit font-size set to 27.2px for the h3's on this page.
+
+For additional information and simplified em-to-px conversion: https://www.w3schools.com/tags/ref_pxtoemconversion.asp.
+*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 27.2px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* Header Section Styles */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +66,18 @@ header {
     color: #ffffff;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
+/* Development Note, 05/14/20 | Sean McGinnis | Code review and refactor developer
+Specification of "header h1 .seo" isn't necessary and could complicate use of the text-based (rather than image-based) logo in future executions of it if it placed in locations other than the header (e.g. in a footer, in modal/pop-up, in other page sections).
 
-header h1 .seo {
+For extensibility of this text-based logo, I've updated the style attribution to span .seo, retaining the .seo class but attributing it specifically to the span rather than nested within the header and limiting the applied styles to that specificity.
+*/
+span .seo {
     color: #d9dcd6;
 }
 
+/* Development Note, 05/14/20 | Sean McGinnis | Code review and refactor developer
+Though I've updated div to the more semantically clear "nav" element, I've retained the specificity of the nav style setting within the header semantic element. This ensures that other nav executions (e.g. footer nav, sidebar nav, in-page or section-based navs) can and should be styled based on the nested regions without requiring specificity look-up and/or potential conflicts.  
+*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,14 +95,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* Hero section styles */
 
 .hero {
     height: 800px;
@@ -59,22 +106,12 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
 
 main section {
     margin-bottom: 20px;
@@ -89,10 +126,7 @@ main section figure img {
     max-height: 200px;
 }
 
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
 
 aside {
     margin-right: 20px;
@@ -110,10 +144,7 @@ aside section {
     color: #ffffff;
 }
 
-aside section h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 
 aside section img {
     display: block;
@@ -128,6 +159,3 @@ aside section img {
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
